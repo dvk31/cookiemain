@@ -15,7 +15,10 @@ SECRET_KEY = 'django-insecure-g6d0#a)1($3vy+r636ak^tdk8!npikp)&g%c9bb(iwt)l!jq=6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+
+    "*"
+]
 
 
 # Application definition
@@ -31,6 +34,8 @@ INSTALLED_APPS = [
     'user',
     'drf_yasg',
     'guardian',
+    'user_management',
+    
 
 ]
 
@@ -123,3 +128,16 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTHENTICATION_BACKENDS = [    'django.contrib.auth.backends.ModelBackend',    'guardian.backends.ObjectPermissionBackend',]
+
+# settings.py
+
+
+# Twilio settings
+TWILIO_ACCOUNT_SID = 'ACc78f4763e26b8f431b0f218396848396'
+TWILIO_AUTH_TOKEN = 'af65e0c0989c85149dcd4d0936306be3'
+TWILIO_PHONE_NUMBER = '+14156255840'
+
+# Add twilio to installed apps
+INSTALLED_APPS += ['twilio']
+
+
