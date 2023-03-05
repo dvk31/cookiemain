@@ -18,10 +18,11 @@ spec:
     spec:
       containers:
       - name: my-django-app
-        image: my-django-app:latest
+        image: docker.io/davidable29/my-django-app:latest #add this here? 
         ports:
         - containerPort: 8000
         env:
         - name: DJANGO_SETTINGS_MODULE
           value: mainproject.settings
         command: ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+

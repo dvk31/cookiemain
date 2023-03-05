@@ -4,6 +4,7 @@ metadata:
   name: my-django-app-ingress
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
+    ingress.kubernetes.io/external-traffic: OnlyLocal  # add this annotation
 spec:
   rules:
   - host: dev.gather.day

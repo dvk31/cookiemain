@@ -1,0 +1,48 @@
+2023-03-04 23:25:06,470 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2023-03-04 23:25:06,473 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'config_helper']
+2023-03-04 23:25:06,478 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2023-03-04 23:25:15,502 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/david@givesurance.org/?recursive=true
+2023-03-04 23:25:15,505 DEBUG    urllib3.connectionpool Starting new HTTP connection (1): metadata.google.internal:80
+2023-03-04 23:25:15,508 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/david@givesurance.org/?recursive=true HTTP/1.1" 200 None
+2023-03-04 23:25:15,508 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/david@givesurance.org/token
+2023-03-04 23:25:15,509 DEBUG    urllib3.connectionpool Resetting dropped connection: metadata.google.internal
+2023-03-04 23:25:15,512 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/david@givesurance.org/token HTTP/1.1" 200 None
+2023-03-04 23:25:15,525 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): www.gstatic.com:443
+2023-03-04 23:25:15,548 DEBUG    urllib3.connectionpool https://www.gstatic.com:443 "GET /cloudsdk/feature_flag_config_file.yaml HTTP/1.1" 200 101
+2023-03-04 23:25:15,561 DEBUG    root            Chosen display Format:default json
+2023-03-04 23:25:15,561 INFO     root            Display format: "default json"
+2023-03-04 23:25:15,562 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "accessibility": {
+        "screen_reader": "True"
+      },
+      "component_manager": {
+        "disable_update_check": "True"
+      },
+      "compute": {
+        "gce_metadata_read_timeout_sec": "30"
+      },
+      "core": {
+        "account": "david@givesurance.org",
+        "disable_usage_reporting": "True"
+      },
+      "metrics": {
+        "environment": "cloudcode.vscode",
+        "environment_version": "1.21.2"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.a0AVvZVsqLH9yAsKnnUZDQLLWNXPPZjEt8tJ8n6EJmRE4mylmUKphUE9qJoCrFsY1xKIPUaPKCCsPDkghuWJEX60mC92Ik2UZNEXG5d0XLAR6yfC3Hr0YDMbShSESYmxkMcZKeOD_qZLcmspXKyPC4YOPi1mDVtEeLYcuQZQz7KPTaVG1UobhVFkHG0kr4-7gTDA5La-RLMoDM467OppXP9GRm0CyljGwDjiqzxgcaCgYKAWcSARMSFQGbdwaIpT6VYnbZ3pCfRLbyeuu83g0238",
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjI1NWNjYTZlYzI4MTA2MDJkODBiZWM4OWU0NTZjNDQ5NWQ3NDE4YmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNjE4MTA0NzA4MDU0LTlyOXMxYzRhbGczNmVybGl1Y2hvOXQ1Mm4zMm42ZGdxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNjE4MTA0NzA4MDU0LTlyOXMxYzRhbGczNmVybGl1Y2hvOXQ1Mm4zMm42ZGdxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTAxMTM5NDgyNzg0ODkwMDg0NDQzIiwiaGQiOiJnaXZlc3VyYW5jZS5vcmciLCJlbWFpbCI6ImRhdmlkQGdpdmVzdXJhbmNlLm9yZyIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiajZvcnJ6T2hUd2VoZlF1YW1TLWhtQSIsImlhdCI6MTY3Nzk2OTcxMywiZXhwIjoxNjc3OTczMzEzLCJqdGkiOiIyYmQ3MjQ3NjgwZTEwNDcxMmQ1MWRmODg1ZGU0OTMzNmJkZmE0YjRmIn0.UPFJR1j7KYcJcVGNZFzqWrkJD6S43lCrtdQOnHctLY1MfECujZpZBqAIsp662Um4WTAXfowH-TsTQySCtXH91VyGdkeLUHBeP19VVNLzgmdp-ruty-yiFPUnr9uCnQa1gP-KH_dqxuQTKC0X_rOAgCN1bC9-IoXzEemdTfAl2jagO3vh7LXqEqFDtI-umAgWeJQFJSdkjauh11IGzu5t65cecIfSt7TYgC3AeH5DVMbXerWLKilkKcRJjmhNRi29KczqDmvdnugJmm2Gpy2dCRbU1uWwTRuqXlBYvZh7boCci81Lq_XADkn_a9z9Qy03QwNghppiuug5CtOLFne7rg",
+    "token_expiry": "2023-03-04T23:41:51Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/home/david/.config/gcloud/config_sentinel"
+  }
+}
+2023-03-04 23:25:15,562 INFO     ___FILE_ONLY___ 
+
+2023-03-04 23:25:15,563 DEBUG    root            SDK update checks are disabled.

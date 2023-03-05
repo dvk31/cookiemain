@@ -130,12 +130,12 @@ AUTHENTICATION_BACKENDS = [    'django.contrib.auth.backends.ModelBackend',    '
 # settings.py
 
 
-# Twilio settings
-TWILIO_ACCOUNT_SID = 'ACc78f4763e26b8f431b0f218396848396'
-TWILIO_AUTH_TOKEN = 'af65e0c0989c85149dcd4d0936306be3'
-TWILIO_PHONE_NUMBER = '+14156255840'
+# # Twilio settings
+# TWILIO_ACCOUNT_SID = 'ACc78f4763e26b8f431b0f218396848396'
+# TWILIO_AUTH_TOKEN = 'af65e0c0989c85149dcd4d0936306be3'
+# TWILIO_PHONE_NUMBER = '+14156255840'
 
-# Add twilio to installed apps
-INSTALLED_APPS += ['twilio']
+# # Add twilio to installed apps
+# # INSTALLED_APPS += ['twilio']
 
 

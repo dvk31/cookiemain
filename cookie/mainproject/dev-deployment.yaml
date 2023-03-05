@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myproject-dev-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: myproject-dev
+  template:
+    metadata:
+      labels:
+        app: myproject-dev
+    spec:
+      containers:
+        - name: myproject-dev
+          image: myproject-dev
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8000
+          volumeMounts:
+            - name: myproject-dev
+              mountPath: /app
+      volumes:
+        - name: myproject-dev
+          hostPath:
+            path: /path/to/your/code/on/host
+            type: Directory

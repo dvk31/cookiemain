@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "kinetic-raceway-379203",
+  "private_key_id": "a6718108ec8f95b1df6a4d73ed082b7cd980f261",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC4+GgJCeyMcYD/\nz50s46A5vR7saavM297PZ3gne8vKhtd55bEJhNk1zjdsA7PWRnJ6DrRCB+VO/0Kd\nM51DiEIHXI83kLJsMiYTria9oC9j5Mb0mAndM1uQYniTemiZynVV+9jBx0roN/DI\n93OnHp7GUeyVlWtHQoHceuHJDXyb2biZiPT/ypaelygn9+RCZXhEnhbW15/pZSZp\nBkp2yfrOHjviav1BcwrI3djRpSFKKERgJktjEb5aCZr2NhcZLRFT3mwOuA+gTA66\ny2JZ84Z/yjWktOJWExvWD6OvHq6ni4KmqaniruOFu109/AKKi7mmeyGoF6Qluppd\nfhWKYE7DAgMBAAECggEAUnkHwgf3vcMaFnVWil5P4Y6ujBCttmDOnsFutIQhIIMw\n7jv4zNq8Ep6I3ZNlCwRMJJoLy2lD2A4+gGM0GplVf3zIqqjMtStDCQFcaq5SkwK9\npu9nboZorB8Lzg4FN5Uq7hSl1/jpMFNI/AJBQeGIP7rlduixdYt05X6wz3lA9ye/\ngiheQPZ0bdSxkVznL8RTFJoxIsbV0Nb/1Va+EdPlD/FQAjsdOYk2UP8Ao8BPMsKu\nFgwmZQUWhHNQF2MV7Yc33oCD98BcptXLRxfDfW1fEehOn7S3BYZvQO4XnD4kjc4h\n+Ry+dnypwiS8EGX8vYtjWFtNvE7y4KHrusH2iZi8GQKBgQD6yQ9wvkVoh35zxTJy\nFYO+Bl5C/3zcWSElIYpDp3fTecnvDlOEw5+BBB6rp2jGWmVICuJuU4/UOesRR/W2\ndeoqWeTk/ZWjelW8Rnin+p1cGevA2CMa6mCdlgB1Gh+6vkxSFEaDwt9XUiXRj0B/\nRif97XX1Ixi9lZj5zxb4jAmJlQKBgQC80QKaNSlIymuzgB/qCPd25jxXzkdRhtlw\n81KuQlwN6Cx00R7lVssD4kJa/Hp6iUdT+E+Jrq27QlTwEi9DzO0xD3hsi6tQxxrY\nT953f9cn1lrJAg0iPfY1HtXR825UtbxmvyGc6QT6TyiujKlDQ8H3NgFTvIHNn+cR\nEMi3CfZQ9wKBgQCPa/0QlUBMj3CZ9OTsqbE2M54k4sgdnDuAaLYSCuxUXQpHVQIe\no2HM/vYrZQpepcPWd6MXRWK0FIuCzoyPVNAeeFqXOw8g9w2hJwxJxOHJkmlpWDJ7\nah7nAKoyTkZnHf230zCgmgnwfmJyfmJ8Zzrn1a3oC7JSegOKmgyhCDVMIQKBgQCR\n9SwC0teAGmHZF1EUVCwfsGizI5VD828A/kdKx6drZK+A+erdNBOpg+zxcrynHpmR\n0qCBeRN5bxRDpHr++Vndk+zuU6VxwwgAcPUzARLsC6qQOdK3RpidhaGaM4h1WSsz\nbcppBkQ/zpNPIxLxGV7GX+v0tALPVi2DpqrRu5S6DwKBgFhoSqQLKIr/3pPcZ/1c\njPf+YFGylSxd3sExXyJSXG3jgcQXIJdSNFXu6SmdSIZ9LDxlswf/TwkyWhJVLif0\nw8bUrjN0mAMebZ54vQA4GbIv+up2fpRYbU1e+cDUrJL4Tb8Xh+m7X3gbTWhxC5TP\nXL3iPWA1v8ksK946RXzMTdd4\n-----END PRIVATE KEY-----\n",
+  "client_email": "googlesheet1@kinetic-raceway-379203.iam.gserviceaccount.com",
+  "client_id": "100204079512754473326",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/googlesheet1%40kinetic-raceway-379203.iam.gserviceaccount.com"
+}

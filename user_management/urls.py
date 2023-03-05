@@ -4,7 +4,7 @@ from django.urls import path
 # from .detail_views import UserDetailView
 # from .update_views import UserUpdateView
 # from .delete_views import UserDeleteView
-from .views import send_sms
+# from .views import send_sms
 app_name = 'user_management'
 
 urlpatterns = [
@@ -13,6 +13,6 @@ urlpatterns = [
     #path('<int:pk>/', UserDetailView.as_view(), name='user_detail'),
     #path('<int:pk>/update/', UserUpdateView.as_view(), name='user_update'),
     #path('<int:pk>/delete/', UserDeleteView.as_view(), name='user_delete'),
-     path('send-sms/', send_sms, name='send-sms'),
+    #  path('send-sms/', send_sms, name='send-sms'),
 ]
 

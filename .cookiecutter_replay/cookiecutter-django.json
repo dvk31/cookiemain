@@ -1,0 +1,32 @@
+{
+  "cookiecutter": {
+    "project_name": "maindev",
+    "project_slug": "mainproject",
+    "description": "Behold My Awesome Project!",
+    "author_name": "Daniel Roy Greenfeld",
+    "domain_name": "assemblr.dev",
+    "email": "daniel-roy-greenfeld@example.com",
+    "version": "0.1.0",
+    "open_source_license": "Not open source",
+    "timezone": "US/Pacific",
+    "windows": "n",
+    "use_pycharm": "n",
+    "use_docker": "yes",
+    "postgresql_version": "14",
+    "cloud_provider": "GCP",
+    "mail_service": "Sendgrid",
+    "use_async": "yes",
+    "use_drf": "yes",
+    "frontend_pipeline": "Webpack",
+    "use_celery": "yes",
+    "use_mailhog": "yes",
+    "use_sentry": "yes",
+    "use_whitenoise": "yes",
+    "use_heroku": "n",
+    "ci_tool": "Github",
+    "keep_local_envs_in_vcs": "y",
+    "debug": "yes",
+    "_template": "gh:cookiecutter/cookiecutter-django",
+    "_output_dir": "/home/david/cookie"
+  }
+}
